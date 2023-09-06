@@ -1,0 +1,100 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #7C4DFF;
+}
+.container{
+    background: white;
+    width: 40%;
+    min-width: 350px;
+    max-height:100% ;
+    padding: 25px 18px;
+    padding-bottom: 45px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.384);
+}
+
+
+#newtask{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    outline: none;
+    
+
+}
+
+/* textbox styles */
+#textinfo{
+    width: 75%;
+    height: 30px;
+    font-size: 15px;
+    padding-left: 5px;
+    border: 2px solid #d1d3d8;
+    border-radius: 6px;
+    font-weight: 400px;
+}
+
+
+#textinfo:focus{
+    outline: none;
+    /* background: none; */
+    border: 2px solid rgba(7, 81, 167, 0.826);
+    border-radius: 3px;
+}
+
+/* add button styles */
+#add{
+    width: 20%;
+    color: white;
+    background: rgba(7, 81, 167, 0.826);
+    border-radius: 3px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+/* tasklist container styles */
+
+#tasklist{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10px;
+    width: 100%;
+    margin-bottom: 10px;
+
+}
+
+/* each task styles */
+.task{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 10px;
+    background: rgb(66, 171, 212);
+    padding: 10px 5px;
+    cursor: pointer;
+    border-radius: 5px;
+    border: 1px solid grey;
+}
+
+/* delete button */
+
+.del{
+    border: none;
+    outline: none;
+    background: none;
+    cursor: pointer;
+    color: red;
+}
